@@ -1,0 +1,8 @@
+# OS generated #
+.DS_Store
+.DS_Store?
+
+# iOS Specific #
+*.xcworkspace
+Pods/
+Podfile.lock
