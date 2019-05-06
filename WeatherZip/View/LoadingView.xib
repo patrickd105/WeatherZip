@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="x10-sn-oS1" customClass="LoadingView" customModule="WeatherZip" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RQR-2U-k3S">
+                    <rect key="frame" x="167" y="338" width="80" height="80"/>
+                    <subviews>
+                        <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="Thu-qd-fDA">
+                            <rect key="frame" x="30" y="30" width="20" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="20" id="jvH-Kp-TZk"/>
+                                <constraint firstAttribute="width" constant="20" id="rZT-Ra-egL"/>
+                            </constraints>
+                        </activityIndicatorView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Thu-qd-fDA" firstAttribute="centerY" secondItem="RQR-2U-k3S" secondAttribute="centerY" id="7Zr-SF-kMy"/>
+                        <constraint firstItem="Thu-qd-fDA" firstAttribute="centerX" secondItem="RQR-2U-k3S" secondAttribute="centerX" id="963-JU-JEs"/>
+                        <constraint firstAttribute="height" constant="80" id="Hd9-6N-AVC"/>
+                        <constraint firstAttribute="width" constant="80" id="ik6-V8-9yx"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="RQR-2U-k3S" firstAttribute="centerX" secondItem="nfR-jm-mJd" secondAttribute="centerX" id="0XL-27-uvG"/>
+                <constraint firstItem="RQR-2U-k3S" firstAttribute="centerY" secondItem="nfR-jm-mJd" secondAttribute="centerY" id="qtl-gL-Zah"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="nfR-jm-mJd"/>
+            <connections>
+                <outlet property="indicatorContainerView" destination="RQR-2U-k3S" id="nwk-in-dJ2"/>
+            </connections>
+            <point key="canvasLocation" x="88" y="57"/>
+        </view>
+    </objects>
+</document>

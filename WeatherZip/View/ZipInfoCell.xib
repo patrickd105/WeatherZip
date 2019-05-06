@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="g6a-nU-Zqk" customClass="ZipInfoCell" customModule="WeatherZip" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g6a-nU-Zqk" id="ZWO-7T-Kdn">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ou9-cH-1IM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wE1-7E-5ng">
+                                <rect key="frame" x="8" y="12" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wE1-7E-5ng" firstAttribute="leading" secondItem="ou9-cH-1IM" secondAttribute="leading" constant="8" id="M62-Sz-9fl"/>
+                            <constraint firstItem="wE1-7E-5ng" firstAttribute="top" secondItem="ou9-cH-1IM" secondAttribute="top" constant="12" id="fth-aV-oL5"/>
+                            <constraint firstAttribute="bottom" secondItem="wE1-7E-5ng" secondAttribute="bottom" constant="11" id="pEx-TS-Zlw"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ou9-cH-1IM" firstAttribute="top" secondItem="ZWO-7T-Kdn" secondAttribute="top" id="0xN-Vu-Lyt"/>
+                    <constraint firstItem="ou9-cH-1IM" firstAttribute="leading" secondItem="ZWO-7T-Kdn" secondAttribute="leading" id="3lO-1U-vad"/>
+                    <constraint firstAttribute="bottom" secondItem="ou9-cH-1IM" secondAttribute="bottom" constant="-0.5" id="DFh-DR-NSM"/>
+                    <constraint firstAttribute="trailing" secondItem="ou9-cH-1IM" secondAttribute="trailing" id="bZc-O2-Nbj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="zipLabel" destination="wE1-7E-5ng" id="LvX-Ox-Esm"/>
+            </connections>
+            <point key="canvasLocation" x="82.608695652173921" y="93.75"/>
+        </tableViewCell>
+    </objects>
+</document>
