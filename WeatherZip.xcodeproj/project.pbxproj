@@ -30,6 +30,7 @@
 		E3681B952280F50B0017E753 /* UIView+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3681B942280F50B0017E753 /* UIView+Helper.swift */; };
 		E3681B982280F93E0017E753 /* ZipServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3681B972280F93E0017E753 /* ZipServiceMock.swift */; };
 		E3681B9A2280F99F0017E753 /* ZipPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3681B992280F99F0017E753 /* ZipPresenterTests.swift */; };
+		E3681B9C228101CB0017E753 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3681B9B228101CB0017E753 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		E3681B942280F50B0017E753 /* UIView+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Helper.swift"; sourceTree = "<group>"; };
 		E3681B972280F93E0017E753 /* ZipServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipServiceMock.swift; sourceTree = "<group>"; };
 		E3681B992280F99F0017E753 /* ZipPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipPresenterTests.swift; sourceTree = "<group>"; };
+		E3681B9B228101CB0017E753 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EAB21C709DA9B06B9AB9C309 /* Pods_WeatherZipTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherZipTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EABB36DD6230FAEACC18D939 /* Pods-WeatherZip-WeatherZipUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherZip-WeatherZipUITests.release.xcconfig"; path = "Target Support Files/Pods-WeatherZip-WeatherZipUITests/Pods-WeatherZip-WeatherZipUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F2E209E30A7EBB712FD1BACE /* Pods-WeatherZip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherZip.release.xcconfig"; path = "Target Support Files/Pods-WeatherZip/Pods-WeatherZip.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		E3681B34227F6B080017E753 = {
 			isa = PBXGroup;
 			children = (
+				E3681B9B228101CB0017E753 /* README.md */,
 				E3681B3F227F6B080017E753 /* WeatherZip */,
 				E3681B54227F6B0A0017E753 /* WeatherZipTests */,
 				E3681B5F227F6B0A0017E753 /* WeatherZipUITests */,
@@ -382,6 +385,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3681B9C228101CB0017E753 /* README.md in Resources */,
 				E3681B4B227F6B090017E753 /* LaunchScreen.storyboard in Resources */,
 				E3681B48227F6B090017E753 /* Assets.xcassets in Resources */,
 				E3681B81227F865E0017E753 /* ZipInfoCell.xib in Resources */,
