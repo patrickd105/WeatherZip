@@ -6,6 +6,7 @@ target 'WeatherZip' do
   use_frameworks!
 
   # Pods for WeatherZip
+  pod 'Kingfisher'
 
   target 'WeatherZipTests' do
     inherit! :search_paths
@@ -13,7 +14,7 @@ target 'WeatherZip' do
   end
 
   target 'WeatherZipUITests' do
-    inherit! :search_paths
+    
     # Pods for testing
   end
 
